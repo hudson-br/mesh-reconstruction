@@ -121,7 +121,7 @@ for elem in os.listdir(cwd):
         mesh_text = mymesh.readlines()
         mesh = MyMesh(mesh_text)
         mesh.symmetrise_the_hell_out_of_the_mesh()
-        out_file = '../mesh_cytokinesis_ symmetrised/'+elem
+        out_file = '../mesh_cytokinesis_symmetrised/'+elem
         mesh.write_mesh(filename = out_file)
 
 
